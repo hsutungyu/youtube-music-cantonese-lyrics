@@ -1,0 +1,35 @@
+{
+
+    "manifest_version": 2,
+    "name": "YouTube Music Cantonese Lyrics",
+    "version": "1.0.1",
+  
+    "description": "Show the lyrics of Cantonese Songs from KKBOX on YouTube Music. (YouTube please!)",
+  
+    "icons": {
+      "48": "icons/icon.svg"
+    },
+    
+    "permissions": [
+        "activeTab",
+        "storage",
+        "*://*.kkbox.com/*"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/icon.svg",
+        "default_title": "YouTube Music Cantonese Lyrics",
+        "default_popup": "popup/popup_lyrics.html"
+    },
+
+    "options_ui": {
+      "page": "options.html"
+    },
+
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "youtubemusiccantoneselyrics@hsutungyu"
+      }
+    }
+  }
+  

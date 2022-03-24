@@ -1,0 +1,8 @@
+# local node.js testing environment, not for the production environment
+node_modules/
+package-lock.json
+package.json
+testing.js
+
+# .zip file for uploading to Firefox Developer Hub
+YouTube_Music_Cantonese_Lyrics.zip

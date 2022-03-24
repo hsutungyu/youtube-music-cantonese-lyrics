@@ -1,0 +1,14 @@
+html, body {
+    width: 350px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#popup-content::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}

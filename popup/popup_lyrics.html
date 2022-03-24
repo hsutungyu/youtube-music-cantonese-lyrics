@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="popup_lyrics.css"/>
+    </head>
+
+    <body>
+        <div id="popup-content">
+            <p>歌詞喺KKBOX到搵出嚟</p>
+            <a id="lyrics-kkbox" href="">喺新tab開KKBOX睇歌詞</a><br>
+            <button id="lyrics-refresh" style="margin-top:5px;">歌已轉，搵新歌詞</button>
+            <p id="lyrics-body"></p>
+        </div>
+        <div id="error-content" class="hidden">
+            <p id="error-message"></p>
+        </div>
+        <script src="popup_lyrics.js"></script>
+        <script src="jquery-3.6.0.min.js"></script>
+    </body>
+</html>
